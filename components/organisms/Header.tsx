@@ -30,14 +30,8 @@ export default function Header() {
               <NavLink link="techstack">
                 Tech Stack
               </NavLink>
-              <NavLink link="project">
-                Project
-              </NavLink>
               <NavLink link="portfolio">
                 Portfolio
-              </NavLink>
-              <NavLink link="contact">
-                Contact
               </NavLink>
               <Button onClick={toggleColorMode}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
